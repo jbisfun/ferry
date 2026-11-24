@@ -1,0 +1,390 @@
+# Traditional Chinese (Taiwan) translation for Ferry.
+# Update: zig build pot && msgmerge -U po/zh_TW.po po/ferry.pot
+msgid ""
+msgstr ""
+"Project-Id-Version: ferry\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 23:24-0500\n"
+"PO-Revision-Date: 2026-11-23 22:30-0500\n"
+"Last-Translator: Ferry contributors\n"
+"Language-Team: Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Cannot reach ferryd: {0}"
+msgstr "無法連線到 ferryd：{0}"
+
+msgid "Started job {0}"
+msgstr "已開始工作 {0}"
+
+msgid "App removed"
+msgstr "已移除 App"
+
+msgid "Nothing to import from Jimpactor"
+msgstr "沒有可從 Jimpactor 匯入的資料"
+
+msgid "Imported {0} item(s) from Jimpactor"
+msgstr "已從 Jimpactor 匯入 {0} 個項目"
+
+msgid "daemon connected"
+msgstr "已連線到背景服務"
+
+msgid "connecting to ferryd..."
+msgstr "正在連線到 ferryd…"
+
+msgid "Refresh"
+msgstr "重新整理"
+
+msgid "Devices"
+msgstr "裝置"
+
+msgid ""
+"No devices.\n"
+"\n"
+"Connect over USB and trust this computer, or keep a paired device on the "
+"same Wi-Fi."
+msgstr ""
+"沒有裝置。\n"
+"\n"
+"請用 USB 連接並信任這部電腦，或讓已配對的裝置連上同一個 Wi-Fi。"
+
+msgid "Signing identities"
+msgstr "簽署身分"
+
+msgid "None yet"
+msgstr "尚無"
+
+msgid "Import from Jimpactor"
+msgstr "從 Jimpactor 匯入"
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "{0} · iOS {1} · {2}"
+msgstr "{0} · iOS {1} · {2}"
+
+msgid "not paired"
+msgstr "尚未配對"
+
+msgid "Select a device"
+msgstr "請選擇裝置"
+
+msgid "Install"
+msgstr "安裝"
+
+msgid "Apps"
+msgstr "App"
+
+msgid "Info"
+msgstr "資訊"
+
+msgid "IPA"
+msgstr "IPA"
+
+msgid "/path/to/App.ipa"
+msgstr "/路徑/App.ipa"
+
+msgid "Browse..."
+msgstr "瀏覽…"
+
+msgid "Choose an IPA"
+msgstr "選擇 IPA"
+
+msgid "iOS apps"
+msgstr "iOS App"
+
+msgid "{0} {1} · {2} · iOS {3}+"
+msgstr "{0} {1} · {2} · iOS {3} 以上"
+
+msgid "Re-sign"
+msgstr "重新簽署"
+
+msgid "Sign with an identity before installing"
+msgstr "安裝前使用簽署身分重新簽署"
+
+msgid "Identity"
+msgstr "簽署身分"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "No identities yet: ferry identity add <name> --p12 ... --profile ..."
+msgstr "尚未加入簽署身分：ferry identity add <名稱> --p12 ... --profile ..."
+
+msgid "Bundle ID"
+msgstr "Bundle ID"
+
+msgid "keep (or pick from the profile)"
+msgstr "保留原值（或依描述檔決定）"
+
+msgid "Unlock the device and trust this computer first."
+msgstr "請先解鎖裝置並信任這部電腦。"
+
+msgid "{0} user apps"
+msgstr "{0} 個使用者 App"
+
+msgid "(loading...)"
+msgstr "（載入中…）"
+
+msgid "Reload"
+msgstr "重新載入"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Loading..."
+msgstr "載入中…"
+
+msgid "No data"
+msgstr "沒有資料"
+
+msgid "Jobs"
+msgstr "工作"
+
+msgid "Dismiss"
+msgstr "關閉"
+
+msgid "Devices:"
+msgstr "裝置："
+
+msgid "list connected devices (USB and Wi-Fi)"
+msgstr "列出已連接的裝置（USB 與 Wi-Fi）"
+
+msgid "lockdown values"
+msgstr "lockdown 資訊"
+
+msgid "user-installed apps"
+msgstr "使用者安裝的 App"
+
+msgid "sign with an identity and install"
+msgstr "使用簽署身分簽署並安裝"
+
+msgid "remove an app"
+msgstr "移除 App"
+
+msgid "Signing:"
+msgstr "簽署："
+
+msgid "sign without installing"
+msgstr "只簽署不安裝"
+
+msgid "bundle id, version, minimum iOS"
+msgstr "Bundle ID、版本、最低 iOS 版本"
+
+msgid "list signing identities"
+msgstr "列出簽署身分"
+
+msgid "import Jimpactor's pairing records and certificates"
+msgstr "匯入 Jimpactor 的配對紀錄與憑證"
+
+msgid "Daemon:"
+msgstr "背景服務："
+
+msgid "jobs known to the daemon"
+msgstr "背景服務中的工作"
+
+msgid "stream device and job events"
+msgstr "即時顯示裝置與工作事件"
+
+msgid "print the protocol's JSON Schema"
+msgstr "輸出通訊協定的 JSON Schema"
+
+msgid "usage"
+msgstr "用法"
+
+msgid ""
+"[device] is a UDID, UDID prefix or name; omit it when one device is "
+"connected."
+msgstr "[device] 可以是 UDID、UDID 開頭或裝置名稱；只連接一台裝置時可省略。"
+
+msgid "Global options:"
+msgstr "全域選項："
+
+msgid "daemon connection: {0}"
+msgstr "背景服務連線錯誤：{0}"
+
+msgid "cannot reach or start ferryd: {0}"
+msgstr "無法連線或啟動 ferryd：{0}"
+
+msgid "error"
+msgstr "錯誤"
+
+msgid "see: ferry {0} --help"
+msgstr "請參閱：ferry {0} --help"
+
+msgid "'{0}' matches more than one device"
+msgstr "「{0}」符合多台裝置"
+
+msgid "no connected device matches '{0}' (see `ferry devices`)"
+msgstr "沒有符合「{0}」的已連接裝置（請執行 `ferry devices`）"
+
+msgid "no devices connected (is usbmuxd running? Wi-Fi devices must be paired)"
+msgstr "沒有已連接的裝置（usbmuxd 是否在執行？Wi-Fi 裝置必須先配對）"
+
+msgid "{0} devices connected; name one (see `ferry devices`)"
+msgstr "已連接 {0} 台裝置，請指定其中一台（請執行 `ferry devices`）"
+
+msgid "no devices"
+msgstr "沒有裝置"
+
+msgid "subscribe: {0}"
+msgstr "訂閱事件失敗：{0}"
+
+msgid "lost the daemon: {0}"
+msgstr "與背景服務的連線中斷：{0}"
+
+msgid "usage: ferry install [device] <ipa>"
+msgstr "用法：ferry install [device] <ipa>"
+
+msgid "{0} does not exist"
+msgstr "{0} 不存在"
+
+msgid "usage: ferry uninstall [device] <bundle-id>"
+msgstr "用法：ferry uninstall [device] <bundle-id>"
+
+msgid "Removed {0}"
+msgstr "已移除 {0}"
+
+msgid "usage: ferry sign <ipa> -o <out>"
+msgstr "用法：ferry sign <ipa> -o <輸出檔>"
+
+msgid "sign: --output is required"
+msgstr "sign：必須指定 --output"
+
+msgid "usage: ferry inspect <ipa>"
+msgstr "用法：ferry inspect <ipa>"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Minimum iOS"
+msgstr "最低 iOS 版本"
+
+msgid "Executable"
+msgstr "執行檔"
+
+msgid "no identities (add one with `ferry identity add`)"
+msgstr "沒有簽署身分（請用 `ferry identity add` 加入）"
+
+msgid "usage: ferry identity add|path <name> ..."
+msgstr "用法：ferry identity add|path <名稱> ..."
+
+msgid "unknown identity action '{0}' (add, path)"
+msgstr "未知的 identity 動作「{0}」（add、path）"
+
+msgid "identity add: missing <name>"
+msgstr "identity add：缺少 <名稱>"
+
+msgid "identity add: --p12 is required"
+msgstr "identity add：必須指定 --p12"
+
+msgid "identity add: at least one --profile is required"
+msgstr "identity add：至少要指定一個 --profile"
+
+msgid "Added identity '{0}' in {1}"
+msgstr "已加入簽署身分「{0}」，位置：{1}"
+
+msgid "usage: ferry import jimpactor [DIR]"
+msgstr "用法：ferry import jimpactor [目錄]"
+
+msgid "nothing imported"
+msgstr "沒有匯入任何項目"
+
+msgid ""
+"usage: ferry provider jimpactor --team T --cli PATH --identity DIR REQUEST"
+msgstr "用法：ferry provider jimpactor --team T --cli 路徑 --identity 目錄 請求"
+
+msgid "provider: request is not JSON"
+msgstr "provider：請求不是 JSON"
+
+msgid "provider: --team is required"
+msgstr "provider：必須指定 --team"
+
+msgid "provider: --cli is required"
+msgstr "provider：必須指定 --cli"
+
+msgid "provider: --identity is required"
+msgstr "provider：必須指定 --identity"
+
+msgid "no jobs"
+msgstr "沒有工作"
+
+msgid "cannot watch usbmuxd hotplug events"
+msgstr "無法監看 usbmuxd 的裝置插拔事件"
+
+msgid "could not start ferryd: {0}"
+msgstr "無法啟動 ferryd：{0}"
+
+msgid "ferryd running (pid {0}, protocol {1})"
+msgstr "ferryd 執行中（pid {0}，協定 {1}）"
+
+msgid "ferryd is not running"
+msgstr "ferryd 未執行"
+
+msgid "ferryd is not running (socket {0})"
+msgstr "ferryd 未執行（socket {0}）"
+
+msgid "ferryd stopped"
+msgstr "ferryd 已停止"
+
+msgid "unknown daemon action '{0}' (start, stop, status)"
+msgstr "未知的 daemon 動作「{0}」（start、stop、status）"
+
+msgid "ferryd running (pid {0}, protocol {1}, socket {2})"
+msgstr "ferryd 執行中（pid {0}，協定 {1}，socket {2}）"
+
+msgid "Install {0} on {1}"
+msgstr "在 {1} 上安裝 {0}"
+
+msgid "Sign {0}"
+msgstr "簽署 {0}"
+
+msgid "Apple ID {0}, team {1} (via {2})"
+msgstr "Apple ID {0}，團隊 {1}（來自 {2}）"
+
+msgid "no signing identities in {0}; add one with `ferry identity add`"
+msgstr "{0} 中沒有簽署身分；請用 `ferry identity add` 加入"
+
+msgid ""
+"{0} identities exist; pick one with --identity or set default_identity in {1}"
+msgstr ""
+"有 {0} 個簽署身分；請用 --identity 指定，或在 {1} 設定 default_identity"
+
+msgid "inspect"
+msgstr "檢查"
+
+msgid "provision"
+msgstr "佈建"
+
+msgid "sign"
+msgstr "簽署"
+
+msgid "upload"
+msgstr "上傳"
+
+msgid "install"
+msgstr "安裝"
+
+msgid "running"
+msgstr "執行中"
+
+msgid "succeeded"
+msgstr "成功"
+
+msgid "failed"
+msgstr "失敗"
+
+msgid "Signed {0} as {1} -> {2}"
+msgstr "已將 {0} 簽署為 {1} → {2}"
+
+msgid "Installed {0} ({1}) on {2}"
+msgstr "已在 {2} 上安裝 {0}（{1}）"
+
+#~ msgid "{0}: {1}"
+#~ msgstr "{0}：{1}"

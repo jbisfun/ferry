@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ferry package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ferry\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 23:24-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Cannot reach ferryd: {0}"
+msgstr ""
+
+msgid "Started job {0}"
+msgstr ""
+
+msgid "App removed"
+msgstr ""
+
+msgid "Nothing to import from Jimpactor"
+msgstr ""
+
+msgid "Imported {0} item(s) from Jimpactor"
+msgstr ""
+
+msgid "daemon connected"
+msgstr ""
+
+msgid "connecting to ferryd..."
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid ""
+"No devices.\n"
+"\n"
+"Connect over USB and trust this computer, or keep a paired device on the same Wi-Fi."
+msgstr ""
+
+msgid "Signing identities"
+msgstr ""
+
+msgid "None yet"
+msgstr ""
+
+msgid "Import from Jimpactor"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "{0} · iOS {1} · {2}"
+msgstr ""
+
+msgid "not paired"
+msgstr ""
+
+msgid "Select a device"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "Apps"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "IPA"
+msgstr ""
+
+msgid "/path/to/App.ipa"
+msgstr ""
+
+msgid "Browse..."
+msgstr ""
+
+msgid "Choose an IPA"
+msgstr ""
+
+msgid "iOS apps"
+msgstr ""
+
+msgid "{0} {1} · {2} · iOS {3}+"
+msgstr ""
+
+msgid "Re-sign"
+msgstr ""
+
+msgid "Sign with an identity before installing"
+msgstr ""
+
+msgid "Identity"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "No identities yet: ferry identity add <name> --p12 ... --profile ..."
+msgstr ""
+
+msgid "Bundle ID"
+msgstr ""
+
+msgid "keep (or pick from the profile)"
+msgstr ""
+
+msgid "Unlock the device and trust this computer first."
+msgstr ""
+
+msgid "{0} user apps"
+msgstr ""
+
+msgid "(loading...)"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+msgid "Jobs"
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Devices:"
+msgstr ""
+
+msgid "list connected devices (USB and Wi-Fi)"
+msgstr ""
+
+msgid "lockdown values"
+msgstr ""
+
+msgid "user-installed apps"
+msgstr ""
+
+msgid "sign with an identity and install"
+msgstr ""
+
+msgid "remove an app"
+msgstr ""
+
+msgid "Signing:"
+msgstr ""
+
+msgid "sign without installing"
+msgstr ""
+
+msgid "bundle id, version, minimum iOS"
+msgstr ""
+
+msgid "list signing identities"
+msgstr ""
+
+msgid "import Jimpactor's pairing records and certificates"
+msgstr ""
+
+msgid "Daemon:"
+msgstr ""
+
+msgid "jobs known to the daemon"
+msgstr ""
+
+msgid "stream device and job events"
+msgstr ""
+
+msgid "print the protocol's JSON Schema"
+msgstr ""
+
+msgid "usage"
+msgstr ""
+
+msgid "[device] is a UDID, UDID prefix or name; omit it when one device is connected."
+msgstr ""
+
+msgid "Global options:"
+msgstr ""
+
+msgid "daemon connection: {0}"
+msgstr ""
+
+msgid "cannot reach or start ferryd: {0}"
+msgstr ""
+
+msgid "error"
+msgstr ""
+
+msgid "see: ferry {0} --help"
+msgstr ""
+
+msgid "'{0}' matches more than one device"
+msgstr ""
+
+msgid "no connected device matches '{0}' (see `ferry devices`)"
+msgstr ""
+
+msgid "no devices connected (is usbmuxd running? Wi-Fi devices must be paired)"
+msgstr ""
+
+msgid "{0} devices connected; name one (see `ferry devices`)"
+msgstr ""
+
+msgid "no devices"
+msgstr ""
+
+msgid "subscribe: {0}"
+msgstr ""
+
+msgid "lost the daemon: {0}"
+msgstr ""
+
+msgid "usage: ferry install [device] <ipa>"
+msgstr ""
+
+msgid "{0} does not exist"
+msgstr ""
+
+msgid "usage: ferry uninstall [device] <bundle-id>"
+msgstr ""
+
+msgid "Removed {0}"
+msgstr ""
+
+msgid "usage: ferry sign <ipa> -o <out>"
+msgstr ""
+
+msgid "sign: --output is required"
+msgstr ""
+
+msgid "usage: ferry inspect <ipa>"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Minimum iOS"
+msgstr ""
+
+msgid "Executable"
+msgstr ""
+
+msgid "no identities (add one with `ferry identity add`)"
+msgstr ""
+
+msgid "usage: ferry identity add|path <name> ..."
+msgstr ""
+
+msgid "unknown identity action '{0}' (add, path)"
+msgstr ""
+
+msgid "identity add: missing <name>"
+msgstr ""
+
+msgid "identity add: --p12 is required"
+msgstr ""
+
+msgid "identity add: at least one --profile is required"
+msgstr ""
+
+msgid "Added identity '{0}' in {1}"
+msgstr ""
+
+msgid "usage: ferry import jimpactor [DIR]"
+msgstr ""
+
+msgid "nothing imported"
+msgstr ""
+
+msgid "usage: ferry provider jimpactor --team T --cli PATH --identity DIR REQUEST"
+msgstr ""
+
+msgid "provider: request is not JSON"
+msgstr ""
+
+msgid "provider: --team is required"
+msgstr ""
+
+msgid "provider: --cli is required"
+msgstr ""
+
+msgid "provider: --identity is required"
+msgstr ""
+
+msgid "no jobs"
+msgstr ""
+
+msgid "cannot watch usbmuxd hotplug events"
+msgstr ""
+
+msgid "could not start ferryd: {0}"
+msgstr ""
+
+msgid "ferryd running (pid {0}, protocol {1})"
+msgstr ""
+
+msgid "ferryd is not running"
+msgstr ""
+
+msgid "ferryd is not running (socket {0})"
+msgstr ""
+
+msgid "ferryd stopped"
+msgstr ""
+
+msgid "unknown daemon action '{0}' (start, stop, status)"
+msgstr ""
+
+msgid "ferryd running (pid {0}, protocol {1}, socket {2})"
+msgstr ""
+
+msgid "Install {0} on {1}"
+msgstr ""
+
+msgid "Sign {0}"
+msgstr ""
+
+msgid "Apple ID {0}, team {1} (via {2})"
+msgstr ""
+
+msgid "no signing identities in {0}; add one with `ferry identity add`"
+msgstr ""
+
+msgid "{0} identities exist; pick one with --identity or set default_identity in {1}"
+msgstr ""
+
+msgid "inspect"
+msgstr ""
+
+msgid "provision"
+msgstr ""
+
+msgid "sign"
+msgstr ""
+
+msgid "upload"
+msgstr ""
+
+msgid "install"
+msgstr ""
+
+msgid "running"
+msgstr ""
+
+msgid "succeeded"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "Signed {0} as {1} -> {2}"
+msgstr ""
+
+msgid "Installed {0} ({1}) on {2}"
+msgstr ""
